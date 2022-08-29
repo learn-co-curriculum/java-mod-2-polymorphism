@@ -25,10 +25,6 @@ package com.flatiron.animal;
 public abstract class Animal {
     private String name;
 
-    protected Animal() {
-        this.name = "unknown";
-    }
-
     public String getName() { 
         return name; 
     }
